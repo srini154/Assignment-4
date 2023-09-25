@@ -1,0 +1,85 @@
+.login-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 17px 0px 10px;
+}
+.input-phone {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 2rem;
+  padding: 0.8rem;
+  font-size: 1.6rem;
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 6px;
+  margin: 0px 15px;
+}
+.main-1 {
+  width: 26.6rem;
+  margin: auto;
+
+  min-width: 20rem;
+  border-radius: 0.6rem;
+  transform: scale(1);
+  box-shadow: rgba(28, 28, 28, 0.15) 0px 1.2rem 7rem;
+  transition: transform 0.25s ease 0s;
+}
+.h1-login {
+  font-size: 30px;
+  margin-left: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.btn-otp {
+  width: 27rem;
+  height: 2.8rem;
+  background-color: rgb(239, 79, 95);
+  border: none;
+  border-radius: 10px;
+  margin-left: 25px;
+  color: white;
+  margin-top: 20px;
+}
+
+.input-otp {
+  border: none !important;
+  height: 3rem;
+}
+.cityname-ul-login {
+  overflow-y: scroll;
+  height: 15rem;
+  width: 4rem;
+  background-color: white !important;
+  border-radius: 20px;
+  margin-top: 10px !important;
+  border: none !important;
+}
+.cityname-ul-login:active {
+  background-color: white !important;
+}
+.cityname-ul-login:hover {
+  background-color: white !important;
+}
+.cityname-li-login {
+  border-bottom: 1px solid lightgray;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.cityname-li-text-login {
+  padding-left: 15px;
+  color: rgb(102, 101, 101) !important;
+}
+.loggin-register {
+  margin: 40px 0px 0px 30px;
+  font-size: 20px;
+}
+.create-login {
+  color: rgb(239, 79, 95);
+  cursor: pointer;
+  border-radius: 0.6rem;
+  border: none;
+  background-color: transparent;
+}

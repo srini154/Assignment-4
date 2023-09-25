@@ -1,0 +1,49 @@
+.menu-img-1 {
+  width: 18.5rem !important;
+  height: 16.5rem !important;
+  margin: 5px 0px 20px 0px;
+  cursor: pointer;
+}
+.menu-all-visible {
+  display: flex;
+  justify-content: space-between;
+}
+.About-menu {
+  font-size: 25px;
+  font-weight: 400;
+}
+.cusines-btn {
+  height: 2.5rem;
+  width: 6.5rem;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(244, 243, 243);
+  font-size: 15px;
+  margin: 10px 20px 10px 0px;
+  color: rgb(112, 112, 246);
+}
+.cusines-btn:active {
+  border: none;
+}
+.text-menu-1 {
+  font-size: 22px;
+  margin: 10px 0px 10px 0px;
+}
+.text-menu-2 {
+  color: rgb(63, 63, 63);
+}
+.cusine-text {
+  font-size: 22px;
+  margin: 20px 0px 5px 0px;
+}
+.map-img {
+  height: 10rem;
+  width: 20rem;
+}
+.box-cont-menu {
+  border: 1px solid rgb(248, 248, 248);
+  padding: 10px;
+  box-shadow: rgba(28, 28, 28, 0.12) 0px 2px 8px;
+  height: 23rem;
+  border-radius: 12px;
+}

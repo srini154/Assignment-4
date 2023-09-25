@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-item {
+  flex: 0 0 calc(33.33% - 10px);
+  max-width: calc(33.33% - 10px);
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.image-item img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.05);
+}
+
+/* Media query for smaller screens to display 1 image per row */
+@media (max-width: 768px) {
+  .image-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

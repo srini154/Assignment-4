@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+.btn-res-cust {
+  background-color: white;
+
+  border: 1px solid rgb(197, 197, 198);
+  font-size: 15px;
+
+  cursor: pointer;
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border-style: ridge;
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  color: rgb(159, 159, 159);
+  font-family: Poppins;
+}
+.contres-5 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 12rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.res-cust {
+  margin-left: 20px;
+}
+.logo-del img {
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+}
+.logo-del-text {
+  font-size: 20px;
+  font-style: italic;
+  margin-left: 40px;
+}
+.foods-logo {
+  display: flex;
+}
+.foods {
+  margin: 2% 0px 20px 14%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo-del {
+  padding: 30px;
+  cursor: pointer;
+}
+.foods-color {
+  background: rgb(248, 248, 248);
+  padding: 30px;
+}
+.foods h1 {
+  color: rgb(28, 28, 28);
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.res-name-cont-1 {
+  color: rgb(28, 28, 28);
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin: 25px 50px 20px 15%;
+}
+.name-rating {
+  display: flex;
+  justify-content: space-between;
+  /* margin-right: 22.5rem; */
+}
+.res-pic img {
+  width: 100%;
+  height: 60%;
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.res-pic {
+  width: 20rem;
+  height: 400px;
+
+  font-size: 20px;
+}
+.hotelcard-link {
+  text-decoration: none !important;
+  color: black;
+}
+.res-pic:hover {
+  border: 1px solid rgb(218, 216, 216);
+  padding: 10px;
+  border-radius: 20px;
+  transition: 0.5s;
+  box-shadow: rgba(230, 229, 229, 0.08) 4px 4.42623px 14.85246px;
+}
+
+.dish-1 {
+  font-size: 15px;
+  color: rgb(105, 105, 105);
+  display: flex;
+  justify-content: space-between;
+}
+.time-1 {
+  /* margin-left: 16rem; */
+  font-size: 15px;
+  color: rgb(105, 105, 105);
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 12.5rem;
+  margin-right: 14.5rem;
+  margin-bottom: 30px;
+}
+.pic-res-1 {
+  background-color: rgb(36, 150, 63);
+  height: 1.6rem;
+  min-width: 2.4rem;
+  padding: 0px 0.4rem !important;
+  border-radius: 0.6rem;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+}
+.btn-res-cust.active {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}

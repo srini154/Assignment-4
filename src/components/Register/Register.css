@@ -1,0 +1,27 @@
+.input-name-register {
+  width: 23.2rem;
+  height: 50px;
+  margin: 20px 10px 20px 50px;
+  border-radius: 0.6rem;
+  border: 0.1rem solid rgb(207, 207, 207);
+  box-sizing: border-box;
+  padding: 15px;
+}
+.h1-signup {
+  font-size: 30px;
+  margin: 10px 0px 20px 50px;
+}
+.create-btn {
+  width: 20rem;
+  height: 3rem;
+  background-color: rgb(239, 79, 95);
+  border-radius: 0.6rem;
+  border: none;
+  color: white;
+  font-weight: 700;
+  margin: 20px 0px 30px 68px;
+}
+.loggin-register-1 {
+  margin: 10px 0px 0px 30px;
+  font-size: 20px;
+}

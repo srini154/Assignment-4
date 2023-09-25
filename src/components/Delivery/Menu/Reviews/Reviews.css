@@ -1,0 +1,48 @@
+.reviews-p-tag {
+  font-size: 30px;
+}
+.review-btn {
+  background-color: white !important;
+  border: none !important;
+}
+.id-review {
+  display: flex;
+}
+
+.id-img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+.rating-review {
+  display: flex;
+  margin: 20px 0px 30px 0px;
+  justify-content: inherit;
+}
+.rating-review-num {
+  margin-right: 20px;
+  width: 45px;
+  height: 30px;
+  background-color: green;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.id-1-review {
+  margin: 0px 0px 0px 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.img-help {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.btn-review-feed {
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  margin: 20px;
+}

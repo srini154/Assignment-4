@@ -1,0 +1,51 @@
+.menu-search-dropdown {
+  width: 9.5rem !important;
+  height: 3rem !important;
+  background-color: transparent;
+  color: rgb(116, 113, 113);
+  border: none;
+  text-align: left;
+  margin-left: -15px;
+  margin-right: 20px;
+  margin-top: 4px;
+}
+.menu-search-dropdown:hover {
+  color: rgb(116, 113, 113);
+  background-color: transparent;
+}
+.menu-search-dropdown:active,
+.dropdown .btn.show {
+  /* background-color: transparent !important; */
+  color: black !important;
+}
+
+.city-arrow {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.cityname-ul {
+  overflow-y: scroll;
+  height: 15rem;
+  width: 15em;
+  background-color: white !important;
+  border-radius: 20px;
+  margin-top: 10px !important;
+}
+.cityname-li a {
+  text-decoration: none !important;
+  color: rgb(0, 0, 0);
+}
+.cityname-li {
+  border-bottom: 1px solid lightgray;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.cityname-li-text {
+  padding-left: 15px;
+  color: rgb(102, 101, 101) !important;
+}
+.maplogo {
+  height: 30px;
+  width: 30px;
+}

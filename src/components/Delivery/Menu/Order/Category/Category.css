@@ -1,0 +1,15 @@
+.category-menu {
+  height: 2.5rem;
+  width: 14rem;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  margin: 10px 0px 20px 0px;
+  text-align: inherit;
+  color: inherit;
+}
+.category-menu.clicked {
+  color: rgb(246, 107, 107);
+  background-color: #fff;
+  border-right: 2px solid red;
+}

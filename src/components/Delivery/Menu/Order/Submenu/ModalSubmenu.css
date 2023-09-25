@@ -1,0 +1,25 @@
+.submenu-modal-cont-1 {
+  display: flex;
+  width: 20rem;
+  height: 11rem;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+.modalsubmenu-phone-img {
+  width: 10rem;
+  height: 10rem;
+}
+.btn-download-app {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.modal-submenu-1 {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  justify-content: end;
+}

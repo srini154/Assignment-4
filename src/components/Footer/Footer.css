@@ -1,0 +1,105 @@
+.footer {
+  background-color: rgb(248, 248, 248);
+  color: black;
+  padding: 30px 0;
+  height: 28.5rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-col {
+  flex: 1;
+  margin-right: 30px;
+  margin-left: 6.5rem;
+}
+
+.footer h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+ul#list3 {
+  list-style: none;
+  padding: 0;
+}
+
+ul#list3 li {
+  margin-bottom: 10px;
+}
+
+ul#list3 li a {
+  text-decoration: none;
+  color: black;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  font-size: 24px;
+}
+.img-1 {
+  margin-bottom: 34px;
+  width: 8rem;
+  margin-left: 6.5rem;
+}
+.img-ord {
+  margin-bottom: 10px;
+}
+
+.submenu {
+  margin-top: 20px; /* Adjust the spacing as needed */
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+  padding: 0;
+  font-size: inherit;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.menu-button:hover {
+  color: #007bff;
+}
+
+.country-menu {
+  list-style: none;
+  padding: 0;
+  display: none; /* Hide the country menu by default */
+}
+
+.sub-menu-button {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+  padding: 0;
+  font-size: inherit;
+  display: block;
+}
+
+.sub-menu-button:hover {
+  color: #007bff;
+}
+.country-menu {
+  display: none;
+}
+
+.country-menu.show {
+  display: block;
+}

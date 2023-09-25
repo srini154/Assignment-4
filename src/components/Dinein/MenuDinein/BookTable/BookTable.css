@@ -1,0 +1,88 @@
+.drp-btn-date {
+  width: 20rem !important;
+  height: 3rem;
+  background-color: white !important;
+  padding: 12px;
+  padding-top: 10px !important;
+  font-size: 18px !important;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  text-align: start !important;
+  color: rgb(176, 175, 175) !important;
+  border-color: rgb(177, 171, 171) !important;
+}
+.drp-btn-date :active {
+  border: 1px solid rgb(177, 171, 171) !important;
+}
+.book-table-query {
+  width: 40rem;
+  height: 40rem;
+}
+.flex-query {
+  display: flex;
+}
+.name-lastname-book {
+  display: flex;
+  justify-content: space-between;
+}
+.name-text-book {
+  width: 20rem;
+  height: 3rem;
+  margin-right: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(177, 171, 171);
+  padding: 10px;
+}
+.name-text-book-1 {
+  width: 20rem;
+  height: 3rem;
+  margin-right: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(177, 171, 171);
+  padding: 10px;
+  margin-top: 30px;
+}
+.main-1-1 {
+  width: 20rem !important;
+  height: 3rem !important;
+  margin-top: 30px;
+}
+.mb-book {
+  width: 20rem !important;
+  border: 1px solid rgb(177, 171, 171);
+  border-radius: 6px;
+}
+.input-otp-1 {
+  height: 3rem !important;
+}
+.tex-book-table {
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.textarea-book {
+  border-radius: 5px;
+  border-color: rgb(177, 171, 171);
+}
+.dialcode-ul-login {
+  padding: 20px;
+}
+.dialcode-li-login {
+  padding: 20px !important;
+}
+.dialcode-li {
+  border-bottom: 1px solid lightgray;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.book-table-btn {
+  width: 42rem;
+  height: 3rem;
+  background-color: rgb(239, 79, 95);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+}
