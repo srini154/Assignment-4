@@ -43,7 +43,6 @@ function Landing() {
   const [showResComponent, setShowResComponent] = useState(false);
 
   const showRes = () => {
-    // console.log("showRes called");
     setShowResComponent(true);
   };
 

@@ -24,7 +24,7 @@ function Menu() {
   useEffect(() => {
     window.scrollTo(0, 0);
     let hoteldetails = Hotels.filter((e) => e.name == hotelname);
-    // console.log(hoteldetails[0]);
+
     setMenuDetails(hoteldetails[0]);
 
     setTimeout(() => {

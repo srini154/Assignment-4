@@ -1,5 +1,5 @@
 import React from "react";
-import "./SuccessBook.css"; // Import your CSS file
+import "./SuccessBook.css";
 
 function SuccessBook({ selectedDate, selectedGuest }) {
   return (

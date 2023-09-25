@@ -126,8 +126,6 @@ function BookTable() {
                 </button>
                 <ul className="dropdown-menu cityname-ul-login">
                   {dialcodes.map((e, index) => (
-                    // console.log(e);
-
                     <li key={index} className="cityname-li-login">
                       <Link
                         className="cityname-li-text-login"

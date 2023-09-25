@@ -7,13 +7,8 @@ import { useParams } from "react-router";
 function Order({ data }) {
   const { hotles: hotelname } = useParams();
 
-  // console.log(data);
   useEffect(() => {
     window.scrollTo(0, 0);
-
-    // let categoryMenu = data.filter((e) => e.name == hotelname);
-
-    // setCategory(categoryMenu[0]);
   }, []);
   return (
     <div className="order-main">

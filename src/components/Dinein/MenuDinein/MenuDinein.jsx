@@ -18,10 +18,9 @@ function Menu() {
   const { hotles: hotelname } = useParams();
   useEffect(() => {
     window.scrollTo(0, 0);
-    // setLoader(true);
-    // console.log("srinivas", hotelname);
+
     let hoteldetails = Dineinres.filter((e) => e.name == hotelname);
-    // console.log(hoteldetails);
+
     setMenuDetails(hoteldetails[0]); // seting the hotel details to setmenudetails
 
     setTimeout(() => {

@@ -11,7 +11,6 @@ function Header() {
   const [signupModalOpen, setSignupModalOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const openLoginModal = () => {
-    // console.log("clicked");
     setTimeout(() => {
       setLoginModalOpen(true);
     }, 500);

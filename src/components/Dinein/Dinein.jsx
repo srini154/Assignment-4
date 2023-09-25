@@ -83,18 +83,6 @@ function Dinein() {
         Trending dining restaurants in {city}
       </div>
       <div className="row" style={{ padding: "0 150px", marginLeft: "2.5rem" }}>
-        {/* {hotelsList.map((e, index) => (
-          // <div key={index} className="col-sm-4">
-          //   <HotelCard data={e} />
-          // </div>
-          <Link
-            key={index}
-            to={`/restaurants/${city}/${e.name}`}
-            className="col-sm-4 hotelcard-link"
-          >
-            <HotelCard data={e} />
-          </Link>
-        ))} */}
         {hotelsList.length > 0 ? (
           hotelsList.map((e, index) => (
             <Link
