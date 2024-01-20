@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/zomatoClone/static/css/main.5f149131.css",
+    "main.js": "/zomatoClone/static/js/main.1b1b2080.js",
+    "static/js/787.5095993b.chunk.js": "/zomatoClone/static/js/787.5095993b.chunk.js",
+    "static/media/Nav.jpg": "/zomatoClone/static/media/Nav.e816360cf5c99fc51af2.jpg",
+    "static/media/main.avif": "/zomatoClone/static/media/main.1ae65b752fea00650c30.avif",
+    "static/media/logo.svg": "/zomatoClone/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/main1.avif": "/zomatoClone/static/media/main1.4a7c03595ff43bbd203c.avif",
+    "static/media/br.webp": "/zomatoClone/static/media/br.bdb66deb2342d7190ae9.webp",
+    "static/media/za.webp": "/zomatoClone/static/media/za.a39a39fa4734de52aadb.webp",
+    "index.html": "/zomatoClone/index.html",
+    "static/media/lk.webp": "/zomatoClone/static/media/lk.b4bb9976dc2c3779a6e3.webp",
+    "static/media/sl.webp": "/zomatoClone/static/media/sl.b4bb9976dc2c3779a6e3.webp",
+    "static/media/sk.webp": "/zomatoClone/static/media/sk.6461b93364602bf0053f.webp",
+    "static/media/indai.webp": "/zomatoClone/static/media/indai.cf2e0a7e1ad57d8e2b01.webp",
+    "static/media/tr.webp": "/zomatoClone/static/media/tr.02c0837f1b26345f84fa.webp",
+    "static/media/ph.webp": "/zomatoClone/static/media/ph.b3e169c51dc98fe220cc.webp",
+    "static/media/sg.webp": "/zomatoClone/static/media/sg.61bda149a74ae99132f4.webp",
+    "static/media/ca.webp": "/zomatoClone/static/media/ca.6b952730357a167c1210.webp",
+    "static/media/cl.webp": "/zomatoClone/static/media/cl.698034a36e72ad99c630.webp",
+    "static/media/lb.webp": "/zomatoClone/static/media/lb.51fd057aae57f5db2ad6.webp",
+    "static/media/cz.webp": "/zomatoClone/static/media/cz.e2cd86c2003c216bfe61.webp",
+    "static/media/qa.webp": "/zomatoClone/static/media/qa.efa886de2e9d905ad822.webp",
+    "static/media/ae.webp": "/zomatoClone/static/media/ae.8ab29612deaa9b51e8d1.webp",
+    "static/media/uae.webp": "/zomatoClone/static/media/uae.8ab29612deaa9b51e8d1.webp",
+    "static/media/it.webp": "/zomatoClone/static/media/it.daa612c2e2332154720c.webp",
+    "static/media/pl (1).webp": "/zomatoClone/static/media/pl (1).6c599037935164459b1c.webp",
+    "static/media/id.webp": "/zomatoClone/static/media/id.657c7fb251cea819321d.webp",
+    "main.5f149131.css.map": "/zomatoClone/static/css/main.5f149131.css.map",
+    "main.1b1b2080.js.map": "/zomatoClone/static/js/main.1b1b2080.js.map",
+    "787.5095993b.chunk.js.map": "/zomatoClone/static/js/787.5095993b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f149131.css",
+    "static/js/main.1b1b2080.js"
+  ]
+}
