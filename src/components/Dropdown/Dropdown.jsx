@@ -32,7 +32,10 @@ function DropdownButton() {
       >
         {cityName.map((e, index) => (
           <li key={index} className=" cityname-li">
-            <Link className="cityname-li-text" to={`/restaurants/${e}`}>
+            <Link
+              className="cityname-li-text"
+              to={`/Assignment-4/restaurants/${e}`}
+            >
               {e}
             </Link>
           </li>

@@ -43,7 +43,7 @@ function Header() {
   );
   return (
     <div className="contres-1">
-      <Link to={"/"}>
+      <Link to={"/Assignment-4"}>
         <img src={main1} className="main-img" alt="" />
       </Link>
       <div className="search-navbar-1">

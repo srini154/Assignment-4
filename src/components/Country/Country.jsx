@@ -7,6 +7,7 @@ import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
 function Country() {
   let { country } = useParams();
+  console.log({ country });
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -39,7 +40,7 @@ function Country() {
           reviews from users just like you!
         </p>
       </div>
-      <Link to={"/"}>
+      <Link to={"/Assignment-4"}>
         <div className="india-btn-cont">
           <img
             src="https://b.zmtcdn.com/web/assets/6c058ad778e88d175fedddf7b7bdd3741675255650.png"

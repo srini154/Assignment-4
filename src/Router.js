@@ -10,10 +10,14 @@ const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" Component={Landing} />
-        <Route exact path="/restaurants/:city" Component={Res} />
-        <Route exact path="/:country" Component={Country} />
-        <Route exact path="/restaurants/:city/:hotles" Component={Menu} />
+        <Route exact path="/Assignment-4" Component={Landing} />
+        <Route exact path="/Assignment-4/restaurants/:city" Component={Res} />
+        <Route exact path="/Assignment-4/:country" Component={Country} />
+        <Route
+          exact
+          path="/Assignment-4/restaurants/:city/:hotles"
+          Component={Menu}
+        />
 
         <Route path="*" element={<p>Invalid Path</p>} />
       </Routes>

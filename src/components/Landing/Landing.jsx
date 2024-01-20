@@ -78,7 +78,7 @@ function Landing() {
             <div className="row">
               <div className="col">
                 {cityName.map((e, index) => (
-                  <Link key={index} to={`/restaurants/${e}`}>
+                  <Link key={index} to={`/Assignment-4/restaurants/${e}`}>
                     <City cityName={e} />
                   </Link>
                 ))}
@@ -97,7 +97,7 @@ function Landing() {
                 &nbsp;&nbsp; India
               </div>
             </button>
-            <Link to={"/Australia"}>
+            <Link to={"/Assignment-4/Australia"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -106,7 +106,7 @@ function Landing() {
                 </div>
               </button>
             </Link>
-            <Link to={"/Brazil"}>
+            <Link to={"/Assignment-4/Brazil"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -118,7 +118,7 @@ function Landing() {
           </div>
 
           <div className="button-container">
-            <Link to={"/Canada"}>
+            <Link to={"/Assignment-4/Canada"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -127,7 +127,7 @@ function Landing() {
                 </div>
               </button>
             </Link>
-            <Link to={"/Chile"}>
+            <Link to={"/Assignment-4/Chile"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -136,7 +136,7 @@ function Landing() {
                 </div>
               </button>
             </Link>
-            <Link to={"/Czech Republic"}>
+            <Link to={"/Assignment-4/Czech Republic"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -147,7 +147,7 @@ function Landing() {
             </Link>
           </div>
           <div className="button-container">
-            <Link to={"/Indonesia"}>
+            <Link to={"/Assignment-4/Indonesia"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -156,7 +156,7 @@ function Landing() {
                 </div>
               </button>
             </Link>
-            <Link to={"/Ireland"}>
+            <Link to={"/Assignment-4/Ireland"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -165,7 +165,7 @@ function Landing() {
                 </div>
               </button>
             </Link>
-            <Link to={"/Italy"}>
+            <Link to={"/Assignment-4/Italy"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -176,7 +176,7 @@ function Landing() {
             </Link>
           </div>
           <div className="button-container">
-            <Link to={"/Lebanon"}>
+            <Link to={"/Assignment-4/Lebanon"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -185,7 +185,7 @@ function Landing() {
                 </div>
               </button>
             </Link>
-            <Link to={"/Malaysia"}>
+            <Link to={"/Assignment-4/Malaysia"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -194,7 +194,7 @@ function Landing() {
                 </div>
               </button>
             </Link>
-            <Link to={"/New Zealand"}>
+            <Link to={"/Assignment-4/New Zealand"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -205,7 +205,7 @@ function Landing() {
             </Link>
           </div>
           <div className="button-container">
-            <Link to={"/Philippines"}>
+            <Link to={"/Assignment-4/Philippines"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -214,7 +214,7 @@ function Landing() {
                 </div>
               </button>
             </Link>
-            <Link to={"/Poland"}>
+            <Link to={"/Assignment-4/Poland"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -223,7 +223,7 @@ function Landing() {
                 </div>
               </button>
             </Link>
-            <Link to={"/ Portugal"}>
+            <Link to={"/Assignment-4/ Portugal"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -234,7 +234,7 @@ function Landing() {
             </Link>
           </div>
           <div className="button-container">
-            <Link to={"/Qatar"}>
+            <Link to={"/Assignment-4/Qatar"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -243,7 +243,7 @@ function Landing() {
                 </div>
               </button>
             </Link>
-            <Link to={"/Singapore"}>
+            <Link to={"/Assignment-4/Singapore"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -252,7 +252,7 @@ function Landing() {
                 </div>
               </button>
             </Link>
-            <Link to={"/Slovakia"}>
+            <Link to={"/Assignment-4/Slovakia"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -263,7 +263,7 @@ function Landing() {
             </Link>
           </div>
           <div className="button-container">
-            <Link to={"/South Africa"}>
+            <Link to={"/Assignment-4/South Africa"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -272,7 +272,7 @@ function Landing() {
                 </div>
               </button>
             </Link>
-            <Link to={"/ Sri Lanka"}>
+            <Link to={"/Assignment-4/ Sri Lanka"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -281,7 +281,7 @@ function Landing() {
                 </div>
               </button>
             </Link>
-            <Link to={"/Turkey"}>
+            <Link to={"/Assignment-4/Turkey"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -292,7 +292,7 @@ function Landing() {
             </Link>
           </div>
           <div className="button-container">
-            <Link to={"/UAE"}>
+            <Link to={"/Assignment-4/UAE"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -301,7 +301,7 @@ function Landing() {
                 </div>
               </button>
             </Link>
-            <Link to={"/United Kingdom"}>
+            <Link to={"/Assignment-4/United Kingdom"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;
@@ -310,7 +310,7 @@ function Landing() {
                 </div>
               </button>
             </Link>
-            <Link to={"/United States"}>
+            <Link to={"/Assignment-4/United States"}>
               <button className="centered-button">
                 <div className="text-5">
                   &nbsp;&nbsp;

@@ -151,7 +151,7 @@ function Delivery() {
         {hotelsList.map((e, index) => (
           <Link
             key={index}
-            to={`/restaurants/${city}/${e.name}`}
+            to={`/Assignment-4/restaurants/${city}/${e.name}`}
             className="col-sm-4 hotelcard-link"
           >
             <HotelCard data={e} />
